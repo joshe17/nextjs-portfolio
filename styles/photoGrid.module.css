@@ -1,0 +1,26 @@
+.container {
+    width: 77%;
+    height: 80%;
+}
+.mobileImages {
+    display: none;
+}
+
+@media only screen and (max-width: 1023px) {
+    .container {
+        width: 90%;
+        height: 100%;
+        margin: auto;
+    }
+    .imageGrid {
+        display: none;
+    }
+    .image {
+        width: 80%;
+        margin-top: 5%
+    }
+    .mobileImages {
+        display: unset;
+    }
+
+}

@@ -1,0 +1,58 @@
+.backButton:hover {
+    color: #f59700;
+}
+
+.bg {
+    position: relative;
+}
+
+.bg:before {
+    content: "";
+    background-image: url('/images/dots.png');
+    position: absolute;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    opacity: .3;
+}
+
+.buttonContainer {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.fileButtons:hover {
+    color: #f59700;
+}
+
+.title {
+    display: inline;
+}
+
+@media only screen and (max-width: 1023px) {
+    .title {
+        display: unset;
+        text-align: center;
+    }
+    .backButton {
+        display: none;
+    }
+    .container {
+        margin: auto;
+        text-align: center;
+    }
+    .bg:before {
+        background-image: unset;
+    }
+    .buttonContainer {
+        position: unset;
+        top: unset;
+        right: unset;
+        text-align: unset;
+    }
+}

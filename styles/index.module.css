@@ -1,0 +1,27 @@
+.bg {
+    position: relative;
+
+}
+
+.bg:before {
+    content: "";
+    background-image: url('/images/dots.png');
+    position: absolute;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    opacity: .3;
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .bg:before {
+        background-image: unset;
+    }
+    .copyright {
+        width: 80%;
+    }
+}

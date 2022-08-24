@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Dosis:wght@500&family=IBM+Plex+Mono:wght@500&family=NTR&family=Source+Code+Pro&display=swap');
+
+.navText {
+    color: #8A9EF7;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'NTR', sans-serif;
+}
+.navText:hover {
+    color: #f59700;
+    font-size: 20px;
+}
+.navText:active {
+    color: white;
+    font-size: 20px;
+}
+.navContainer {
+    right: 20px;
+    bottom: 30px;
+    position: fixed;
+}
+.navList {
+    list-style: none;
+}
+
+@media only screen and (max-width: 1300px) {
+    .navContainer {
+        display: none;
+    }
+}

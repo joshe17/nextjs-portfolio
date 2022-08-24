@@ -1,0 +1,67 @@
+.boxOuter {
+    width: 90%;
+    height: 33em;
+    background-color: #3f3f3f;
+    border-radius: 15px;
+    flex-direction: row;
+    position: relative;
+}
+
+.boxInner {
+    width: 90%;
+    position: absolute;
+    top: 40px;
+    margin: 0px;
+    left: 5%;
+}
+
+
+
+.buttonBox {
+    position: absolute;
+    bottom: 10%;
+    width: 90%;
+}
+
+.jobDescriptions {
+    font-family: Roboto;
+}
+
+
+@media only screen and (max-width: 1023px) {
+    .boxOuter {
+        margin: auto;
+        background-color: unset;
+    }
+    .boxInner {
+        display: none;
+    }
+    .title {
+        text-align: center;
+    }
+    .jobDuration {
+        text-align: center;
+    }
+    .jobTitle {
+        text-align: center;
+    }
+    .jobDescriptions {
+        left: 0;
+        position: absolute;
+    }
+    .buttonBox {
+        display: none;
+    }
+    .mobileBox {
+        width: 90;
+    }
+    .jobEmployer {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .mobileBox {
+        display: none;
+    }
+}

@@ -1,0 +1,57 @@
+.skillsList {
+    display: inline-block;
+}
+
+.profileImage {
+    display: inline-flex;
+    float: right;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.aboutText {
+    max-width: 500px;
+    width: 100%;
+    float: left;
+    margin-right: 70px;
+}
+
+.bulletPoint {
+    color: #f59700;
+}
+
+.bulletContent {
+    color: whitesmoke;
+}
+
+
+
+@media only screen and (max-width: 1023px) {
+    .profileImage {
+        display: none !important;
+        float: unset;
+        margin: unset;
+    }
+    .aboutText {
+        text-align: center;
+        float: unset;
+        margin-right: unset;
+        max-width: 100%;
+    }
+    .skillsList {
+        text-align: left;
+    }
+    .title {
+        text-align: center;
+    }
+    .imageSizer {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 389px) {
+    .bulletContent {
+        font-size: 8px;
+    }
+}
+   

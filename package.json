@@ -1,0 +1,35 @@
+{
+  "name": "nextjs",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "latest",
+    "animate.css": "^4.1.1",
+    "animate.css-react": "^1.1.0",
+    "next": "latest",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-animated-css": "^1.2.1",
+    "react-animation-on-scroll": "^5.1.0",
+    "react-dom": "latest",
+    "react-type-animation": "^2.0.9",
+    "react-typist": "^2.0.5",
+    "rsuite": "^5.16.4"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-next": "latest"
+  }
+}
