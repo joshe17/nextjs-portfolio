@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Link from 'next/Link';
+import Link from 'next/link';
 import styles from '../styles/ResponsiveAppBar.module.css';
 
 const navLinks = [

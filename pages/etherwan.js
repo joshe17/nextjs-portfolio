@@ -2,7 +2,7 @@ import * as React from 'react';
 import PhotoGrid from '../components/photoGrid';
 import Container from '@mui/material/Container';
 import FilePresentIcon from '@mui/icons-material/FilePresent';
-import Link from 'next/Link';
+import Link from 'next/link';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import styles from '../styles/etherwan.module.css'
 import Copyright from '../src/Copyright';
