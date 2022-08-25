@@ -47,7 +47,7 @@ const projectCards = {
 
     'Custom Portfolio Site': {
         description: 'GitHub Repo of this website - made in React and NextJS leveraging MaterialUI components and CSS animation.',
-        link: 'https://joshuahoportfolio.com/',
+        link: 'https://github.com/joshe17/nextjs-portfolio',
         media: '/images/defaultCard.jpg',
         alt: 'dark stock image'
     },
