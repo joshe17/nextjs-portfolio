@@ -9,7 +9,6 @@ import Typography from '@mui/material/Typography';
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import styles from '../styles/experience.module.css';
-import useWindowSize from './getSize';
 
 function getSteps() {
     return ['EtherWAN Systems', 'Alpha Kappa Psi', 'Dougherty Valley High School'];
