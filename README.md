@@ -1,3 +1,6 @@
+Test-Phase of website. Must add comments and fix code layout in backend. (Not intended to be Production-ready) 
+
+
 # Next.js example
 
 ## How to use
