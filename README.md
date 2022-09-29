@@ -1,4 +1,4 @@
-Test-Phase of website. Must add comments and fix code layout in backend. (Not intended to be Production-ready) 
+Test-Phase of website. Must add comments and fix code layout in backend. (Not intended to be Production-ready as of now) 
 
 
 # Next.js example
