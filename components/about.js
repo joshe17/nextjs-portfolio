@@ -13,7 +13,7 @@ export default function AboutPage() {
           <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce='true'>
               <Box className={styles.aboutText}>
                   <p>
-                      I graduated from the University of California, Irvine with a Bachelor's in Business Administration and a minor in Computer Science.
+                      I graduated from the University of California, Irvine with a Bachelor's in Business Administration and a minor in Computer Science. I have also completed the Google UX Design Certificate Course!
 
                       Below are some technologies and languages that I am familiar with!
                   </p>
