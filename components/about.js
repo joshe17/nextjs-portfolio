@@ -22,17 +22,17 @@ export default function AboutPage() {
                       <li className={styles.bulletPoint}><span className={styles.bulletContent}>C++</span></li>
                       <li className={styles.bulletPoint}><span className={styles.bulletContent}>C</span></li>
                       <li className={styles.bulletPoint}><span className={styles.bulletContent}>JavaScript</span></li>
-                      <li className={styles.bulletPoint}><span className={styles.bulletContent}>x86</span></li>
-                      <li className={styles.bulletPoint}><span className={styles.bulletContent}>SQL</span></li>
+                      <li className={styles.bulletPoint}><span className={styles.bulletContent}>CSS</span></li>
+                      <li className={styles.bulletPoint}><span className={styles.bulletContent}>HTML</span></li>
 
                   </ul>
                   <ul className={styles.skillsList}>
-                      <li className={styles.bulletPoint}><span className={styles.bulletContent}>CSS</span></li>
-                      <li className={styles.bulletPoint}><span className={styles.bulletContent}>HTML</span></li>
                       <li className={styles.bulletPoint}><span className={styles.bulletContent}>React / React Native</span></li>
                       <li className={styles.bulletPoint}><span className={styles.bulletContent}>NextJS</span></li>
                       <li className={styles.bulletPoint}><span className={styles.bulletContent}>Angular</span></li>
                       <li className={styles.bulletPoint}><span className={styles.bulletContent}>Ionic</span></li>
+                      <li className={styles.bulletPoint}><span className={styles.bulletContent}>SQL</span></li>
+                      <li className={styles.bulletPoint}><span className={styles.bulletContent}>Sketch</span></li>
                   </ul>
                   <ul className={styles.skillsList}>
                       <li className={styles.bulletPoint}><span className={styles.bulletContent}>Figma</span></li>
