@@ -28,7 +28,7 @@ const projectCards = {
     'Gallery - An Artist Biography App': {
         description: 'Created mockups, wireframes, and high fidelity prototype of a mobile artist bio app in Figma. Conducted usability tests and research as well for Google UX Design Course.',
         link: 'https://docs.google.com/presentation/d/1ciwXp7CtbcjrVxlM-QxaHSinFJXDH01B_0rLLmv271U/edit?usp=sharing',
-        media: '/images/galleryApp.png',
+        media: '/images/galleryApp.PNG',
         alt: 'mockups for a mobile app'
     },
     
@@ -42,14 +42,14 @@ const projectCards = {
     'Adobe Creative Jams - Film App': {
         description: 'High-fidelity prototype for a social media application focused on creating online film communities designed in AdobeXD.',
         link: 'https://xd.adobe.com/view/b474dd4e-dd6d-4a81-8a0e-19b4bf5fe448-e127/?fullscreen',
-        media: '/images/creativeJams.png',
+        media: '/images/creativeJams.PNG',
         alt: 'home page of film app'
     },
 
     'Travel Video': {
         description: 'Self-filmed and edited travel video utilizing custom-keyframed transitions in Final Cut Pro X.',
         link: 'https://www.youtube.com/watch?v=GP4b7rRNPZY&ab_channel=JoshuaHo',
-        media: '/images/italyScreenshot.png',
+        media: '/images/italyScreenshot.PNG',
         alt: 'screenshot of Italy from travel video'
     },
 
