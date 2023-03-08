@@ -24,6 +24,14 @@ const projectCards = {
         media: '/images/etherwanCover.png',
         alt: 'social media graphic of wireless bridge device'
     },
+    
+    'Gallery - An Artist Biography App': {
+        description: 'Created mockups, wireframes, and high fidelity prototype of a mobile artist bio app in Figma. Conducted usability tests and research as well for Google UX Design Course.',
+        link: 'https://docs.google.com/presentation/d/1ciwXp7CtbcjrVxlM-QxaHSinFJXDH01B_0rLLmv271U/edit?usp=sharing',
+        media: '/images/galleryApp.png',
+        alt: 'mockups for a mobile app'
+    },
+    
     'Professional Networking App': {
         description: 'Wireframe and high-fidelity prototype of a professional networking app made in AdobeXD.',
         link: 'https://xd.adobe.com/view/1d71f7aa-52a2-4bbe-85fa-4146c815a3da-4822/',
@@ -50,14 +58,8 @@ const projectCards = {
         link: 'https://github.com/joshe17/nextjs-portfolio',
         media: '/images/defaultCard.jpg',
         alt: 'dark stock image'
-    },
-
-    'Custom Text Editor': {
-        description: 'Implemented VIM-like functionality of a custom text editor in C++ that allows for text manipulation in a Linux terminal',
-        link: 'https://github.com/joshe17/Custom-Text-Editor',
-        media: '/images/defaultCard.jpg',
-        alt: 'dark stock image'
     }
+
 };
 
 export default function ProjectPage() {
