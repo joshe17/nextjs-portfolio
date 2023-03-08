@@ -43,7 +43,7 @@ export default function AboutPage() {
                       <li className={styles.bulletPoint}><span className={styles.bulletContent}>And more!</span></li>
                   </ul>
                   <p>
-                      Outside of work, I enjoy art, rock-climbing, reading, cars, and finding new coffee shops.
+                      Outside of work, I enjoy art, rock-climbing, reading, cars, and finding new coffee shops. I'm also really interested in HiFi audio equipment, anime, and fashion.
                   </p>
               </Box>
               <div className={styles.imageSizer}>
