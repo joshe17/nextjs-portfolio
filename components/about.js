@@ -18,21 +18,18 @@ export default function AboutPage() {
                       Below are some technologies and languages that I am familiar with!
                   </p>
                   <ul className={styles.skillsList}>
+                      <li className={styles.bulletPoint}><span className={styles.bulletContent}>Swift</span></li>
+                      <li className={styles.bulletPoint}><span className={styles.bulletContent}>SwiftUI</span></li>
+                      <li className={styles.bulletPoint}><span className={styles.bulletContent}>Combine</span></li>
                       <li className={styles.bulletPoint}><span className={styles.bulletContent}>Python</span></li>
                       <li className={styles.bulletPoint}><span className={styles.bulletContent}>C++</span></li>
-                      <li className={styles.bulletPoint}><span className={styles.bulletContent}>C</span></li>
-                      <li className={styles.bulletPoint}><span className={styles.bulletContent}>JavaScript</span></li>
-                      <li className={styles.bulletPoint}><span className={styles.bulletContent}>CSS</span></li>
-                      <li className={styles.bulletPoint}><span className={styles.bulletContent}>HTML</span></li>
-
                   </ul>
                   <ul className={styles.skillsList}>
-                      <li className={styles.bulletPoint}><span className={styles.bulletContent}>React / React Native</span></li>
+                      <li className={styles.bulletPoint}><span className={styles.bulletContent}>React</span></li>
                       <li className={styles.bulletPoint}><span className={styles.bulletContent}>NextJS</span></li>
-                      <li className={styles.bulletPoint}><span className={styles.bulletContent}>Angular</span></li>
-                      <li className={styles.bulletPoint}><span className={styles.bulletContent}>Ionic</span></li>
+                      <li className={styles.bulletPoint}><span className={styles.bulletContent}>JavaScript</span></li>
+                      <li className={styles.bulletPoint}><span className={styles.bulletContent}>CSS / HTML</span></li>
                       <li className={styles.bulletPoint}><span className={styles.bulletContent}>SQL</span></li>
-                      <li className={styles.bulletPoint}><span className={styles.bulletContent}>Sketch</span></li>
                   </ul>
                   <ul className={styles.skillsList}>
                       <li className={styles.bulletPoint}><span className={styles.bulletContent}>Figma</span></li>
@@ -40,7 +37,6 @@ export default function AboutPage() {
                       <li className={styles.bulletPoint}><span className={styles.bulletContent}>Photoshop</span></li>
                       <li className={styles.bulletPoint}><span className={styles.bulletContent}>Premiere Pro</span></li>
                       <li className={styles.bulletPoint}><span className={styles.bulletContent}>Indesign</span></li>
-                      <li className={styles.bulletPoint}><span className={styles.bulletContent}>And more!</span></li>
                   </ul>
                   <p>
                       Outside of work, I enjoy art, rock-climbing, reading, cars, and finding new coffee shops. I'm also really interested in HiFi audio equipment, anime, and fashion.
