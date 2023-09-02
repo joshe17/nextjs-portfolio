@@ -11,17 +11,17 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 import styles from '../styles/experience.module.css';
 
 function getSteps() {
-    return ['EtherWAN Systems', 'Alpha Kappa Psi', 'Dougherty Valley High School'];
+    return ['5TEN Motors LLC', 'EtherWAN Systems', 'Alpha Kappa Psi'];
 }
 
 function getStepTitle(step) {
     switch (step) {
         case 0:
-            return 'Product Marketing Intern';
+            return 'Freelance Designer & Web Developer';
         case 1:
-            return 'Vice President of Marketing';
+            return 'Product Marketing Intern';
         case 2:
-            return 'Audio-Video Committee Head';
+            return 'Vice President of Marketing';
         default:
             return "unknown step";
     }
@@ -30,11 +30,11 @@ function getStepTitle(step) {
 function getStepEmployer(step) {
     switch (step) {
         case 0:
-            return 'EtherWAN Systems';
+            return '5TEN Motors LLC';
         case 1:
-            return 'Alpha Kappa Psi';
+            return 'EtherWAN Systems';
         case 2:
-            return 'Dougherty Valley HS';
+            return 'Alpha Kappa Psi';
         default:
             return "unknown step";
     }
@@ -43,11 +43,11 @@ function getStepEmployer(step) {
 function getStepDuration(step) {
     switch (step) {
         case 0:
-            return 'JUN 2021 - SEP 2021';
+            return 'NOV 2022 - MAR 2023';
         case 1:
-            return 'OCT 2019 - JUN 2022';
+            return 'JUN 2021 - SEP 2021';
         case 2:
-            return 'AUG 2016 - JUN 2018';
+            return 'OCT 2019 - JUN 2022';
         default:
             return "unknown step";
     }
@@ -57,21 +57,22 @@ function getStepDescription(step) {
     switch (step) {
         case 0:
             return [
+                'Designed and implemented custom website according to client’s needs in Next.js and React',
+                'Integrated third-party libraries to help improve UI and handled user input for form data via creation of a custom email form component using Superface',
+                'Drew custom logos and created scalable vector graphics for the company in Illustrator and Photoshop'
+            ];
+        case 1:
+            return [
                 'Individually lead 10+ marketing campaigns for distributor outlets and produced 75+ pieces of graphic design content for social media/sales channels',
                 'Increased new-employee training/onboarding efficiency by over 300% through creation of SOPs for existing and newly-instilled processes',
                 'Introduced new systems to enhance UI/UX of company website through addition of 3D product imaging, videos, and interactive landing pages',
                 'Worked with Product Management team to help conceptualize, conduct competitor research on, and market 5 new products from inception to launch'
             ];
-        case 1:
+        case 2:
             return [
                 'Raised online visibility and traffic of local business via 5+ customer acquisition strategies outlined in a 12-page marketing plan as a pro-bono consultant',
                 'Helped surge Facebook organic views (2,470%), reach (377%), engagements (237%), page likes (735%) via assistance in consistent content creation and frequent page optimization and maintenance',
                 'Increased total participants of organization-led events by 50% during the transition to online-hosting via targeted social strategy and community outreach',
-            ];
-        case 2:
-            return [
-                'Increased audience subscribers of social media platforms by 300% and average organic views by 1,428% for Youtube and Instagram platforms',
-                'Oversaw group of 11 individuals for production of content creation(over 50+ promotional videos per year) and functioning of 40+ events with audiences of ~3,000'
             ];
         default:
             return [];
