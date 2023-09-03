@@ -30,7 +30,7 @@ export default function IntroPage() {
                 <Box>
                     <p className={styles.introTextBox}>
                         I'm a software engineer and designer from the San Francisco Bay Area.
-                        I'm interested in front-end engineering, product management, UI/UX Design, and everything in between.
+                        I'm interested in iOS Engineering, front-end, and UI/UX.
                     </p>
                 </Box>
                 <div className={styles.buttonContainer}>
