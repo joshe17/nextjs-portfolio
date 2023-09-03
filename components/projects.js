@@ -35,7 +35,7 @@ const projectCards = {
     'SwiftUI Weather App': {
         description: 'Weather app in Swift and SwiftUI using a call to OpenWeather API. Utilizes Core Location to request user location permissions.',
         link: 'https://github.com/joshe17/weatherAPIApp',
-        media: '/images/defaultCard.png',
+        media: '/images/defaultCard.jpg',
         alt: 'dark stock image'
     },
 
