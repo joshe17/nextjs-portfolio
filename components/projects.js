@@ -18,6 +18,27 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 
 const projectCards = {
+    '5TEN Motors LLC Custom Website': {
+        description: 'Custom logo design in Adobe Illustrator and website made in Next.js, TypeScript, and CSS for 5TEN Motors LLC.',
+        link: 'https://www.5tenmotors.com/',
+        media: '/images/5tenLogo.png',
+        alt: '5TEN Motors Logo written out'
+    },
+    
+    'Facebook Remake in SwiftUI': {
+        description: 'Recreated Facebook front-end in Swift and SwiftUI with mock data backend.',
+        link: 'https://github.com/SwiftUI-Course/FacebookUI',
+        media: '/images/facebookApp.png',
+        alt: 'Facebook home page picture'
+    },
+    
+    'SwiftUI Weather App': {
+        description: 'Weather app in Swift and SwiftUI using a call to OpenWeather API. Utilizes Core Location to request user location permissions.',
+        link: 'https://github.com/joshe17/weatherAPIApp',
+        media: '/images/defaultCard.png',
+        alt: 'dark stock image'
+    },
+
     'EtherWAN Graphic Design': {
         description: 'A variety of graphics made for EtherWAN Systems - includes social media collateral, GIFs, landing pages, posters, and brochures.',
         link: '/etherwan',
